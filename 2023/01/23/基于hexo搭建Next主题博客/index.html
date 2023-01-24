@@ -29,8 +29,11 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/pasted-0.png">
 <meta property="og:image" content="http://example.com/images/pasted-1.png">
+<meta property="og:image" content="http://example.com/images/pasted-3.png">
+<meta property="og:image" content="http://example.com/images/pasted-4.png">
+<meta property="og:image" content="http://example.com/images/pasted-5.png">
 <meta property="article:published_time" content="2023-01-23T09:53:00.000Z">
-<meta property="article:modified_time" content="2023-01-24T03:58:44.642Z">
+<meta property="article:modified_time" content="2023-01-24T04:09:52.333Z">
 <meta property="article:author" content="golitter">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/images/pasted-0.png">
@@ -138,7 +141,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">3</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">2</span></a>
 
   </li>
   </ul>
@@ -201,7 +204,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-01-24 11:58:44" itemprop="dateModified" datetime="2023-01-24T11:58:44+08:00">2023-01-24</time>
+                <time title="修改时间：2023-01-24 12:09:52" itemprop="dateModified" datetime="2023-01-24T12:09:52+08:00">2023-01-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -239,6 +242,16 @@
 <li>npm install hexo-deployer-git –save 失败<br>  ERROR Deployer not found: git</li>
 </ul>
 <p>  <br>   使用cnpm代替npm安装hexo-deployer-git –save</p>
+<ul>
+<li>hexo博客布置到github，图片不显示</li>
+</ul>
+<p><code>npm install https://github.com/CodeFalling/hexo-asset-image --save</code></p>
+<p>站点配置文件post_asset_folder属性置为true</p>
+<p><code>npm install hexo-image-link --save</code></p>
+<p>如果npm不行，就换cnpm<br>windows上复制的路径是 “&#x2F;&#x2F;..” 改成 linux上的路径 “.&#x2F;..”</p>
+<p><img src="/../images/pasted-3.png" alt="github截图1"></p>
+<p><img src="/../images/pasted-4.png" alt="admin截图1"><br>成功显示！</p>
+<p><img src="/../images/pasted-5.png" alt="upload successful"></p>
 
     </div>
 
@@ -285,10 +298,7 @@
     <a href="/2023/01/23/hello-world/" rel="prev" title="Hello World">
       <i class="fa fa-chevron-left"></i> Hello World
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2023/01/24/test/" rel="next" title="test">
-      test <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -362,7 +372,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
