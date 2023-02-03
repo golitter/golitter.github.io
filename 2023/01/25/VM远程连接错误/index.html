@@ -20,25 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="新的一年，开始自己搭建博客，写一些我认为比较重要的内容。   现在，把我搭建博客遇到的问题写下来并提供解决方案。 安装Node.js git hexo next主题就不再进行描述了，这些步骤简单。 照着网上的操作步骤来做，能够解决百分之七八十的内容。但是还有的内容就需要自己琢磨。下面把我遇到的问题和解决方法描述进行描述。  在站点配置文件中，即使设置了语言属性，但是展示还是乱码。可能原因是编码不">
+  <meta name="description" content="报错 ... Got some output, clearing connection timeout ... 原因，虚拟机的ip地址改变了。把hostName ip地址改了，就成功了。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="基于hexo搭建Next主题博客">
-<meta property="og:url" content="http://example.com/2023/01/23/%E5%9F%BA%E4%BA%8Ehexo%E6%90%AD%E5%BB%BANext%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:title" content="VM远程连接错误">
+<meta property="og:url" content="http://example.com/2023/01/25/VM%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/index.html">
 <meta property="og:site_name" content="Golitter&#39;s Blog">
-<meta property="og:description" content="新的一年，开始自己搭建博客，写一些我认为比较重要的内容。   现在，把我搭建博客遇到的问题写下来并提供解决方案。 安装Node.js git hexo next主题就不再进行描述了，这些步骤简单。 照着网上的操作步骤来做，能够解决百分之七八十的内容。但是还有的内容就需要自己琢磨。下面把我遇到的问题和解决方法描述进行描述。  在站点配置文件中，即使设置了语言属性，但是展示还是乱码。可能原因是编码不">
+<meta property="og:description" content="报错 ... Got some output, clearing connection timeout ... 原因，虚拟机的ip地址改变了。把hostName ip地址改了，就成功了。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/images/pasted-0.png">
-<meta property="og:image" content="http://example.com/images/pasted-1.png">
-<meta property="og:image" content="http://example.com/images/pasted-3.png">
-<meta property="og:image" content="http://example.com/images/pasted-4.png">
-<meta property="og:image" content="http://example.com/images/pasted-5.png">
-<meta property="article:published_time" content="2023-01-23T09:53:00.000Z">
-<meta property="article:modified_time" content="2023-01-24T04:49:39.098Z">
+<meta property="article:published_time" content="2023-01-25T05:42:00.000Z">
+<meta property="article:modified_time" content="2023-01-25T05:45:25.856Z">
 <meta property="article:author" content="golitter">
+<meta property="article:tag" content="err">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images/pasted-0.png">
 
-<link rel="canonical" href="http://example.com/2023/01/23/%E5%9F%BA%E4%BA%8Ehexo%E6%90%AD%E5%BB%BANext%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2/">
+<link rel="canonical" href="http://example.com/2023/01/25/VM%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/">
 
 
 <script id="page-configurations">
@@ -51,7 +46,7 @@
   };
 </script>
 
-  <title>基于hexo搭建Next主题博客 | Golitter's Blog</title>
+  <title>VM远程连接错误 | Golitter's Blog</title>
   
 
 
@@ -174,7 +169,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/23/%E5%9F%BA%E4%BA%8Ehexo%E6%90%AD%E5%BB%BANext%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/01/25/VM%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/touxiang.jpg">
@@ -187,7 +182,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          基于hexo搭建Next主题博客
+          VM远程连接错误
         </h1>
 
         <div class="post-meta">
@@ -196,24 +191,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2023-01-23 17:53:00" itemprop="dateCreated datePublished" datetime="2023-01-23T17:53:00+08:00">2023-01-23</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-01-24 12:49:39" itemprop="dateModified" datetime="2023-01-24T12:49:39+08:00">2023-01-24</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/tech/" itemprop="url" rel="index"><span itemprop="name">tech</span></a>
-                </span>
+              <time title="创建时间：2023-01-25 13:42:00 / 修改时间：13:45:25" itemprop="dateCreated datePublished" datetime="2023-01-25T13:42:00+08:00">2023-01-25</time>
             </span>
 
           
@@ -227,39 +207,11 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <blockquote>
-<p>新的一年，开始自己搭建博客，写一些我认为比较重要的内容。</p>
-</blockquote>
-<hr>
-<p>现在，把我搭建博客遇到的问题写下来并提供解决方案。</p>
-<p>安装Node.js git hexo next主题就不再进行描述了，这些步骤简单。</p>
-<p>照着网上的操作步骤来做，能够解决百分之七八十的内容。但是还有的内容就需要自己琢磨。下面把我遇到的问题和解决方法描述进行描述。</p>
-<ul>
-<li><p>在站点配置文件中，即使设置了语言属性，但是展示还是乱码。<br><img src="/../images/pasted-0.png" alt="配置文件截图1"><br>可能原因是编码不同，原配置文件是‘GB2312’,改成’utf-8‘就可以了。</p>
-</li>
-<li><p>安装完主题并运用，没有标签和分栏页。</p>
-</li>
-</ul>
-<p><img src="/../images/pasted-1.png" alt="主题配置文件截图1"><br>在主题目录下找到设置运行的主题名的文件夹，进入，打开‘_config.yml’文件，找到“menu”，在此设置要用的不同目录名。</p>
-<ul>
-<li>npm install hexo-deployer-git –save 失败<br>  ERROR Deployer not found: git</li>
-</ul>
-<p>  <br>   使用cnpm代替npm安装hexo-deployer-git –save</p>
-<ul>
-<li>hexo博客布置到github，图片不显示</li>
-</ul>
-<p><code>npm install https://github.com/CodeFalling/hexo-asset-image --save</code></p>
-<p>站点配置文件post_asset_folder属性置为true</p>
-<p><code>npm install hexo-image-link --save</code></p>
-<p>如果npm不行，就换cnpm<br>windows上复制的路径是 “&#x2F;&#x2F;..” 改成 linux上的路径 “.&#x2F;..”</p>
-<p><img src="/../images/pasted-3.png" alt="github截图1"></p>
-<p><img src="/../images/pasted-4.png" alt="admin截图1"><br>成功显示！</p>
-<p><img src="/../images/pasted-5.png" alt="upload successful"></p>
-<ul>
-<li>page无法正常显示</li>
-</ul>
-<p>在博客根目录下：</p>
-<p><code>hexo new page &quot;Name&quot; </code><br>之后打开”source&#x2F;Name&#x2F;Name.md”文件，在文件内添加<br><code>type: &quot;Name&quot;</code> 即可。</p>
+        <p>报错</p>
+<pre class="line-numbers language-none"><code class="language-none">...
+Got some output, clearing connection timeout
+...<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>原因，虚拟机的ip地址改变了。把hostName ip地址改了，就成功了。</p>
 
     </div>
 
@@ -286,7 +238,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://example.com/2023/01/23/%E5%9F%BA%E4%BA%8Ehexo%E6%90%AD%E5%BB%BANext%E4%B8%BB%E9%A2%98%E5%8D%9A%E5%AE%A2/" title="基于hexo搭建Next主题博客">http://example.com/2023/01/23/基于hexo搭建Next主题博客/</a>
+    <a href="http://example.com/2023/01/25/VM%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E9%94%99%E8%AF%AF/" title="VM远程连接错误">http://example.com/2023/01/25/VM远程连接错误/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -296,6 +248,9 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/err/" rel="tag"># err</a>
+          </div>
 
         
 
@@ -303,12 +258,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/01/23/hello-world/" rel="prev" title="Hello World">
-      <i class="fa fa-chevron-left"></i> Hello World
+    <a href="/2023/01/25/vsc%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95%E6%9C%8D%E5%8A%A1%E5%99%A8/" rel="prev" title="vsc免密登录服务器">
+      <i class="fa fa-chevron-left"></i> vsc免密登录服务器
     </a></div>
       <div class="post-nav-item">
-    <a href="/2023/01/24/linux%E4%B8%8Bpostgresql%E5%AE%89%E8%A3%85/" rel="next" title="linux下postgresql安装">
-      linux下postgresql安装 <i class="fa fa-chevron-right"></i>
+    <a href="/2023/01/25/vsc%E9%85%8D%E7%BD%AE/" rel="next" title="vsc配置">
+      vsc配置 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
